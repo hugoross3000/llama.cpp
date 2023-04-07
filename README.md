@@ -310,7 +310,8 @@ Perplexity - model options
 
 1. Download/extract: https://s3.amazonaws.com/research.metamind.io/wikitext/wikitext-2-raw-v1.zip?ref=salesforce-research
 2. Run `./perplexity -m models/7B/ggml-model-q4_0.bin -f wiki.test.raw`
-3. Output:
+3. Output:`./perplexity -m models/7B/ggml-model-q4_0.bin -f wiki.test.raw`
+
 ```
 perplexity : calculating perplexity over 655 chunks
 24.43 seconds per pass - ETA 4.45 hours
