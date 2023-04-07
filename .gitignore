@@ -36,3 +36,5 @@ __pycache__
 
 zig-out/
 zig-cache/
+
+.fake
